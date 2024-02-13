@@ -5,18 +5,17 @@ class Animal {
   }
   
   greet() {
-    console.log("こんにちは");
+    console.log("Hi");
   }
   
   info() {
     this.greet();
-    console.log(`名前は${this.name}です`);
-    console.log(`${this.age}歳です`);
+    console.log(`I am${this.name}.`);
+    console.log(`${this.age}years old.`);
   }
 }
 
 class Dog extends Animal {
-  // constructorを追加してください
   constructor(name, age, breed) {
     super(name, age);
     this.breed = breed;
@@ -24,13 +23,12 @@ class Dog extends Animal {
   
   info() {
     this.greet();
-    console.log(`名前は${this.name}です`);
-    // 「犬種は〇〇です」と出力してください
-    console.log(`犬種は${this.breed}です`);
+    console.log(`I am ${this.name}.`);
+    console.log(`dog type is ${this.breed}.`);
     
-    console.log(`${this.age}歳です`);
+    console.log(`${this.age} years old.`);
     const humanAge = this.getHumanAge();
-    console.log(`人間年齢で${humanAge}歳です`);
+    console.log(`${humanAge} years old in human years.`);
   }
   
   getHumanAge() {
@@ -38,7 +36,6 @@ class Dog extends Animal {
   }
 }
 
-// 3つ目の引数に「"チワワ"」を渡してください
-const dog = new Dog("レオ", 4, "チワワ");
+const dog = new Dog("Reo", 4, "TheDog");
 dog.info();
 

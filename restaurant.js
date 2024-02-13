@@ -1,4 +1,4 @@
-//クラスの定義
+//Class Definition
 class Restaurant {
   constructor(menue, price, special_menue, special_price) {
     this.menue = menue;
@@ -7,12 +7,12 @@ class Restaurant {
     this.special_price = special_price;
   }
 
-  // infoメソッド
+  // info method
   greet() {
-    console.log("本日のおすすめ");
+    console.log("Today's Recommendation");
   }
   greet2() {
-    console.log("季節のおすすめ");
+    console.log("Seasonal Recommendations");
   }
   info(){
     console.log(`${this.menue}`);
@@ -24,14 +24,14 @@ class Restaurant {
   }
 }
 
-//インスタンス
+//instance
 const restaurant = new Restaurant("pasta", "¥1500", "pizza", "¥2000");
 
-// 出力
+// output
 restaurant.greet();
 restaurant.info();
-console.log("######これはデバッグです。ここまで処理が進んでます。######")
+console.log("######This is debugging. The process has progressed to this point.######")
 restaurant.greet2();
-console.log("######これはデバッグ2です。ここまで処理が進んでます。######")
+console.log("######This is debugging2. The process has progressed to this point.######")
 restaurant.info();
-console.log("######これはデバッグ3です。ここまで処理が進んでます。######")
+console.log("######This is debugging3. The process has progressed to this point.######")
