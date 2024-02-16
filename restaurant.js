@@ -40,7 +40,7 @@ console.log("######This is debugging3. The process has progressed to this point.
 // ---------------------------------------------
 
 const names = [
-  {firstName: "Kate", lastName: "Jones"},
+  {firstName: "Matt", lastName: "Bomer"},
 ];
 
 // Create a new array for the constant names and assign it to the constant fullNames
@@ -58,23 +58,23 @@ class Product{
 
   //各インスタンスから参照されるメソッドを定義
   hi(){
-      console.log("いらっしゃいませ！");
-      console.log(`${fullNames}様`);
+      console.log("welcome to our restaurant!!!!");
+      console.log(`Mr. ${fullNames}, we have been waiting for you.`);
   }
 
   info(){
-  console.log(`${this.name}のおすすめ`);
-  console.log(`　◼　${this.menue}は${this.price}円です`);
+  console.log(`${this.name} recommendation.`);
+  console.log(`　◼　${this.menue} is ${this.price} backs.`);
   }
 
   end(){
-    console.log("お上がりよっっ！！！！");
+    console.log("Taste it!!!!!");
   }
 }
 //以下、インスタンスオブジェクトの生成
-const product1 = new Product("本日", "pasta", 1500);
-const product2 = new Product("季節", "pizza", 2000);
-const product3 = new Product("シェフ", "グラタン", 1000);
+const product1 = new Product("Today's", "pasta", 15);
+const product2 = new Product("Seasonal", "pizza", 20);
+const product3 = new Product("Chef's", "gratin", 10);
 
 product1.hi();
 product1.info();
