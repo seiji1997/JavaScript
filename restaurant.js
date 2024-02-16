@@ -50,13 +50,12 @@ const fullNames = names.map((name) => {
 
 class Product{
   constructor(name, menue, price){
-      //プロパティの初期化
       this.name = name;
       this.menue = menue;
       this.price = price;
   }
 
-  //各インスタンスから参照されるメソッドを定義
+  // method
   hi(){
       console.log("welcome to our restaurant!!!!");
       console.log(`Mr. ${fullNames}, we have been waiting for you.`);
