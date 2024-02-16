@@ -70,7 +70,7 @@ class Product{
     console.log("Taste it!!!!!");
   }
 }
-//以下、インスタンスオブジェクトの生成
+//create object
 const product1 = new Product("Today's", "pasta", 15);
 const product2 = new Product("Seasonal", "pizza", 20);
 const product3 = new Product("Chef's", "gratin", 10);

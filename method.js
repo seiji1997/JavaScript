@@ -5,7 +5,7 @@ console.log(list_characters);
 list_characters.push("Thor");
 console.log(list_characters);
 
-// forEachメソッド：配列charactersの中身をすべて出力
+// forEach method: Output all contents of the array characters
 list_characters.forEach((character) => {
   console.log(character);
 });
@@ -15,7 +15,7 @@ list_characters.forEach((character) => {
 // find method for number
 const skip_numbers = [1, 3, 5, 7, 9];
 
-// 配列numbersから3の倍数を見つけて定数foundNumberに代入
+// Find multiples of 3 from the array numbers and assign them to the constant foundNumber
 const foundNumber = skip_numbers.find((number) => {
   return number % 3 === 0 ;
 });
@@ -30,7 +30,7 @@ const dic_characters = [
   {id: 4, name: "captainAmerica", age: 21}
 ];
 
-// 定数charactersからidが3のオブジェクトを見つけて定数foundCharacterに代入
+// Finds objects with id 3 from the constant characters and assigns them to the constant foundCharacter
 const foundCharacter = dic_characters.find((character) => {
   return character.id === 3;
 });
@@ -42,7 +42,7 @@ console.log(foundCharacter);
 // filter method for number
 const nomal_numbers = [1, 2, 3, 4];
 
-// numbersから偶数を取り出し、定数evenNumbersに代入
+// Take an even number from numbers and assign it to the constant evenNumbers
 const evenNumbers = nomal_numbers.filter((number) => {
   return number % 2 === 0;
 });
@@ -56,7 +56,7 @@ const dic_characters2 = [
   {id: 3, name:"Loki", age: 100}
 ];
 
-// charactersから20歳未満のキャラクターを取り出し、定数underTwentyに代入
+// Take the characters under 20 from characters and assign them to the constant underTwenty.
 const underTwenty = dic_characters2.filter((character) => {
   return character.age < 20;
 });
