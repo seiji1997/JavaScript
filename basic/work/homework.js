@@ -133,3 +133,4 @@ for (let i = 0; i < 6; i++) {
     console.log(`${numbers[2]}${numbers[0]}${numbers[1]}`);
     console.log(`${numbers[2]}${numbers[1]}${numbers[0]}`);
 }
+

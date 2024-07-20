@@ -243,3 +243,33 @@ for (const user of users) {
         console.log(user.username);
     }
 }
+
+console.log("---------------------------------------------------------------------")
+
+
+for (let i = 1; i <= 9; i++) {
+  let row = "";
+  for (let j = 1; j <= 9; j++) {
+      let result = i * j;
+      if (result < 10) {
+          row += "0" + result + " ";
+      } else {
+          row += result + " ";
+      }
+  }
+  console.log(row);
+}
+
+
+  let row = "";
+  for (let j = 1; j <= 9; j++) {
+      let result = i * j;
+      if (result < 10) {
+          row += "0" + result + " ";
+      } else {
+          row += result + " ";
+      }
+  }
+  console.log(row);
+
+
