@@ -16,12 +16,12 @@
 
 各練習問題およびプロジェクトは以下の通りです：
 
-1. [Practice 1](practice1.md) - 基本的なJavaScriptの構文と操作
-2. [Practice 2](practice2.md) - 関数とスコープ
-3. [Practice 3](practice3.md) - 配列とオブジェクトの操作
-4. [Practice 4](practice4.md) - DOM操作とイベントハンドリング
-5. [Practice 5](practice5.md) - 非同期JavaScriptとプロミス
-6. [Practice 6](practice6.md) - 追加のJavaScript練習問題
+1. [Practice_1](practice_1.md) - 基本的なJavaScriptの構文と操作
+2. [Practice_2](practice_2.md) - 関数とスコープ
+3. [Practice_3](practice_3.md) - 配列とオブジェクトの操作
+4. [Practice_4](practice_4.md) - DOM操作とイベントハンドリング
+5. [Practice_5](practice_5.md) - 非同期JavaScriptとプロミス
+6. [Practice_6](practice_6.md) - 追加のJavaScript練習問題
 
 各練習問題は、個別のディレクトリにあり、それぞれのREADMEファイルで詳細を説明しています。
 
